@@ -146,3 +146,20 @@ footer p {
     font-variant: small-caps;
     text-align: center;
 }
+
+@media (max-width: 100px) {
+    .body {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media (max-width: 100px) {
+    .header{
+      flex: 100%;
+      max-width: 100%;
+    }
+    .header img {
+      max-width: 100%;
+    }
+  }
